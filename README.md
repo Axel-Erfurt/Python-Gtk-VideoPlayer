@@ -2,6 +2,7 @@
 
 ## Requirenments
 - python3
+- python3-gi
 - yt-dlp
 
 ## Usage
@@ -17,3 +18,5 @@ or
 - local files
 - web files
 - youtube links
+
+![screenshot](https://github.com/Axel-Erfurt/Python-Gtk-VideoPlayer/blob/main/gtk4player.png)
