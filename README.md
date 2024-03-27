@@ -9,9 +9,13 @@
 
 ``python3 Gtk3WebViewPlayer.py``
 
+``python3 Gtk3WebViewPlayer.py [path or url]``
+
 or 
 
 ``python3 Gtk4VideoPlayer.py``
+
+``python3 Gtk4VideoPlayer.py [path or url]``
 
 **You can play**
 
