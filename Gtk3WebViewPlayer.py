@@ -108,7 +108,7 @@ class MainWindow(Gtk.ApplicationWindow):
     def on_paste_url(self, url, *args):
         if url is not None:
             if url.startswith("http"):
-                if "youtube" in url[:22]:
+                if "youtube" in url[:22] or "youtu.be" in url[:22]:
                     print("is youtube, grabbing video url")
                     url = self.get_yt_url(url)
                     self.set_title("Youtube Video")
@@ -147,6 +147,7 @@ class MainWindow(Gtk.ApplicationWindow):
     def get_yt_url(self, url, *args):
         cmd = f"yt-dlp -g -f worst {url}"
         result = check_output(cmd, stderr=STDOUT, shell=True).decode()
+        result = f'http{result.split("http")[1]}'
         return result
 
 
