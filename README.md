@@ -23,7 +23,7 @@ or
 - web files
 - youtube links
 
-**Shortcuts**
+**Shortcuts - Gtk4VideoPlayer**
 
 - F Fullscreen
 - H show / hide  Headerbar
