@@ -23,4 +23,11 @@ or
 - web files
 - youtube links
 
+**Shortcuts**
+
+- F Fullscreen
+- H show / hide  Headerbar
+- M show / hide mouse cursor
+- Q quit
+
 ![screenshot](https://github.com/Axel-Erfurt/Python-Gtk-VideoPlayer/blob/main/gtk4player.png)
