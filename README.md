@@ -1,6 +1,6 @@
 # Python-Gtk-VideoPlayer
 
-## Requirenments
+## Requirements
 - python3
 - python3-gi
 - yt-dlp
